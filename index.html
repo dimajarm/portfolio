@@ -11,45 +11,45 @@
 <body>
     <nav>
         <a href="">Головна</a>
-        <!-- зробити мітки через name <a name="top"></a> ; як вставити головну сторінку; перевірити решту, можливо потрібно ставити # -->
         <a href="#works">Роботи</a>
         <a href="#contacs">Контакти</a>
         <a href="#feedback">Зворотній зв'язок</a>
     </nav>
     <h1>Ярмолін Дмитро</h1>
     <div>
-        <img src="img/photo.png" alt="фото Ярмоліна Дмитра"/>
+        <img class="work-image" src="img/photo.png" alt="фото Ярмоліна Дмитра" />
     </div>
-    <p>Привіт! Мене звати Дмитро і у вільний час я займаюсь графічним та картографічним дизайном. Тут ви зможете побачити мої останні роботи, які є векторною графікою, що дозволяє їх адаптувати до будь-яких розмірів.</p>
+    <p id="hello-text">Привіт! Мене звати Дмитро і у вільний час я займаюсь графічним та картографічним дизайном. Тут ви зможете побачити мої останні роботи, які є векторною графікою, що дозволяє їх адаптувати до будь-яких розмірів.</p>
     <hr>
-    <h1><a id="works"></a>Мої останні роботи</h1> <!-- зробити мітки на іконки -->
-    
+    <h1><a id="works"></a>Мої останні роботи</h1>
+    <!-- зробити мітки на іконки -->
+
     <div>
-        <img src="img/tokyo-logo-461x260.jpg" alt="логотип Токіо"/>
+        <img src="img/tokyo-logo-461x260.jpg" alt="логотип Токіо" />
         <p class="work-name">логотип для суші-бару</p>
     </div>
     <div>
-        <img src="img/love-254x260.jpg" alt="леттеринг Love"/>
+        <img class="work-image" src="img/love-254x260.jpg" alt="леттеринг Love" />
         <p class="work-name">леттеринг</p>
     </div>
     <div>
-        <img src="img/new-york-315x206.jpg" alt="паттерн міста Нью Йорк"/>
+        <img class="work-image" src="img/new-york-315x206.jpg" alt="паттерн міста Нью Йорк" />
         <p class="work-name">безшовний паттерн для кафе</p>
     </div>
     <div>
-        <img src="img/rgb-196x206.jpg" alt="іконка RGB"/>
+        <img class="work-image" src="img/rgb-196x206.jpg" alt="іконка RGB" />
         <p class="work-name">іконка RGB</p>
     </div>
     <div>
-        <img src="img/cmyk-196x206.jpg" alt="іконка CMYK"/>
+        <img class="work-image" src="img/cmyk-196x206.jpg" alt="іконка CMYK" />
         <p class="work-name">іконка CMYK</p>
     </div>
     <div>
-        <img src="img/logo-full-stack-261x261.jpg" alt="іконка Full stack"/>
+        <img class="work-image" src="img/logo-full-stack-261x261.jpg" alt="іконка Full stack" />
         <p class="work-name">іконка Full stack</p>
     </div>
     <div>
-        <img src="img/gdpr-390x261.jpg" alt="ілюстрація GDPR"/>
+        <img class="work-image" src="img/gdpr-390x261.jpg" alt="ілюстрація GDPR" />
         <p class="work-name">ілюстрація для CСN</p>
     </div>
     <div>
@@ -62,24 +62,25 @@
         <a href="https://www.instagram.com/d.jarmolin/">d.jarmolin</a>
     </div>
     <div>
-        <h1><a id="feedback"></a>Для швидкого зв'язку</h1> 
-        <form action="https://formspree.io/d.jarmolin@gmail.com" method="POST"><!-- зробити мітки -->
-            <p>Email</p>
-            <input type="email" name="_replyto">
-            <p>Ім'я</p>
-            <input type="text" name="name">
-            <p>Тема</p>
-            <input type="text" name="subject">
+        <h1><a id="feedback"></a>Для швидкого зв'язку</h1>
+        <form action="https://formspree.io/d.jarmolin@gmail.com" method="POST">
+            <label for="_replyto">Email</label>
+            <input type="email" name="_replyto" id="_replyto">
+            <label for="client-name">Ім'я</label>
+            <input type="text" name="name" id="client-name">
+            <label for="subject-text">Тема</label>
+            <input type="text" name="subject" id="subject-text">
             <br>
-            <textarea name="message" rows="12" cols="35"></textarea>
+            <textarea name="message" rows="12" cols="35" placeholder="Привіт! У Вас є запитання?"></textarea>
             <br>
             <input type="submit" value="Надіслати">
         </form>
     </div>
     <hr>
-    <footer>  
-    <p>© 2018  Усі права збережено ♥</p>
-     <a href="http://www.yarmolin.pp.ua">yarmolin.pp.ua</a>
+    <footer>
+        <p>© 2018 Усі права збережено ♥</p>
+<!-- change domen -->
+        <a href="https://dimajarm.github.io/portfolio/">yarmolin.pp.ua</a>
     </footer>
 </body>
 
