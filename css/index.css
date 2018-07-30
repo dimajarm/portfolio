@@ -19,11 +19,7 @@ header nav {
     font-family: 'Roboto Mono', monospace;
     font-size: 1rem;
 }
-nav div p {
-    display: flex;
-     font-family: 'Roboto Mono', monospace;
-    font-size: 1rem;
-}
+
 header section {
     display:  flex;
     justify-content: center;
