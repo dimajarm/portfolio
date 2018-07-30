@@ -8,9 +8,10 @@
 body {
     max-width: 800px;
     margin: auto;
+    background-color: #F7F6F6;
 }
 
 header nav {
     font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
+    font-size: 1rem;
 }
