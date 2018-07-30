@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-/* font-family: 'Roboto Mono', monospace;  */ 
+/* font-family: 'Roboto Mono', monospace;  */
+
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Mono');
-/* font-family: 'Playfair Display', serif;  */ 
+/* font-family: 'Playfair Display', serif;  */
+
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Roboto+Mono');
-/* font-family: 'Roboto', sans-serif;  */ 
+/* font-family: 'Roboto', sans-serif;  */
 
 body {
     max-width: 800px;
@@ -12,16 +14,19 @@ body {
 }
 
 header h1 {
+    display: flex;
+    justify-content: center;
     font-family: 'Roboto Mono', monospace;
     font-size: 1rem;
 }
+
 header nav {
     font-family: 'Roboto Mono', monospace;
     font-size: 1rem;
 }
 
 header section {
-    display:  flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
