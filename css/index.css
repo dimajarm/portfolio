@@ -1,3 +1,16 @@
-p {
-    font-size: 16px;
-    }
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+/* font-family: 'Roboto Mono', monospace;  */ 
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Mono');
+/* font-family: 'Playfair Display', serif;  */ 
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Roboto+Mono');
+/* font-family: 'Roboto', sans-serif;  */ 
+
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
+header nav {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+}
