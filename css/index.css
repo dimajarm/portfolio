@@ -28,6 +28,6 @@ header nav {
 header section {
     display: flex;
     justify-content: center;
-    align-items: center;
     font-family: 'Roboto Mono', monospace;
+    padding: 20px ;
 }
