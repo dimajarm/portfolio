@@ -18,16 +18,39 @@ header h1 {
     justify-content: center;
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
+    margin: 30px;
 }
 
-header nav {
+p .hello-text {
+    margin-left: 20px;
+}
+
+div .collapse  {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+div header nav {
+    display: flex;
+    justify-content: center;
     font-family: 'Roboto Mono', monospace;
     font-size: 1rem;
+    background-color: #F7F6F6 !important;
+    border-bottom: 1.3px dashed #8c8b8b;
 }
 
 header section {
     display: flex;
     justify-content: center;
     font-family: 'Roboto Mono', monospace;
-    padding: 20px ;
+}
+
+hr {
+	background-color: #F7F6F6;
+	border-top: 1.3px dashed #8c8b8b;
+}
+
+div #title-text {
+     display: flex;
+    justify-content: center;
 }
