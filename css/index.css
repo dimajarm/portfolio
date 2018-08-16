@@ -55,12 +55,17 @@ hr {
 div #title-text {
     display: flex;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .work-image-cards {
     text-align: center;
 }
-
+p.work-name {
+    margin-top: 12px;
+    margin-bottom: 20px;
+     font-family: 'Roboto Mono', monospace;
+}
 .work-image {
     box-shadow: 1px 4px 7px -3px #7b857a;
 }
@@ -69,6 +74,7 @@ div #title-text {
     .work-image-cards {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        margin-top: 20px;
     }
 }
 
