@@ -88,6 +88,9 @@ p.work-name {
     justify-content: center;
 }
 
+input, textarea {
+    border: 1.3px dashed #8c8b8b;
+}
 
 footer {
     text-align: center;
