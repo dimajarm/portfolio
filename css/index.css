@@ -44,7 +44,6 @@ div header nav {
 #hello-text {
     margin-left: 20px;
     text-align: justify;
-
 }
 
 hr {
@@ -79,10 +78,13 @@ p.work-name {
     }
 }
 
-.contacts-block {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+@media (min-width: 600px) {
+    .contacts-block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
+
 
 .more-works {
     display: flex;
